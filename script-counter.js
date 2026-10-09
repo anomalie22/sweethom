@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){var n=document.getElementById("countdown"),t=360;function o(){var o=Math.floor(t/60),r=t%60;t<=0?(clearInterval($),window.location.reload()):(n.textContent=e(o)+":"+e(r),t--)}function e(n){return(n<10?"0":"")+n}o();var $=setInterval(o,1e3)});

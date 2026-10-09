@@ -1,0 +1,112 @@
+/* Start Variables */
+:root {
+    --basic-color-1: #336;
+    --basic-color-2: #000;
+    --basic-color-3: #3a6cf4;
+    --basic-color-4: #FFF;
+    --basic-color-5: #4e9eff;
+    --basic-color-6: #535353;
+    --basic-line-height: 1.8;
+    --basic-padding: 50px;
+    --basic-transition: 0.5s;
+}
+/* End Variables */
+
+/* Start Global Rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.body-login {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/background-login.jpg);
+}
+
+.body-login::before {
+    content: "";
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: #0000008f;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width:767px) {
+    .body-login {
+        background: #000 !important;
+    }
+}
+
+.body-other {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100vh;
+    width: 100%;
+}
+
+.show-error-message {
+    display: flex !important;
+}
+
+.error-input {
+    border: 1px solid #c11119 !important;
+}
+
+.show-explain-cvv {
+    display: flex !important;
+    overflow: visible !important;
+}
+
+/* End Global Rules */

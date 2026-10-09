@@ -1,0 +1,309 @@
+/* Start Page Dashboard */
+::selection {
+    background-color: #fff !important;
+    color: hsl(0, 0%, 0%) !important;
+}
+
+body {
+    background: #000 !important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .content-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .content-nav h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px !important;
+    font-size: 25px;
+    text-align: center;
+}
+
+nav .content-nav h3 img {
+    width: 75px;
+    margin-right: 10px;
+}
+
+/* Start Buttons Control User */
+
+.container-buttons-control-user {
+    margin-top: 100px;
+}
+
+.container-buttons-control-user form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-buttons-control-user .buttons-control-users {
+    /* width: 128px !important; */
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+    color: #fff;
+    border: 2px solid transparent !important;
+    transition: all 0.3s ease-in-out;
+    outline: 0px;
+    border-radius: 5px;
+}
+
+.container-buttons-control-user form .button-1 {
+    background-color: #0d6efd;
+}
+
+.container-buttons-control-user form .button-1:hover {
+    background-color: transparent !important;
+    border: 2px solid #0d6efd !important;
+}
+
+.container-buttons-control-user form .button-2 {
+    background-color: #dc3545;
+}
+
+.container-buttons-control-user form .button-2:hover {
+    background-color: transparent !important;
+    border: 2px solid #dc3545 !important;
+}
+
+.container-buttons-control-user form .button-3 {
+    background-color: #ffc107;
+}
+
+.container-buttons-control-user form .button-3:hover {
+    background-color: transparent !important;
+    border: 2px solid #ffc107 !important;
+}
+
+.container-buttons-control-user form .button-4 {
+    background-color: #dc3545;
+}
+
+.container-buttons-control-user form .button-4:hover {
+    background-color: transparent !important;
+    border: 2px solid #dc3545 !important;
+}
+
+.container-buttons-control-user form .button-5 {
+    background-color: #0dcaf0;
+}
+
+.container-buttons-control-user form .button-5:hover {
+    background-color: transparent !important;
+    border: 2px solid #0dcaf0 !important;
+}
+
+.container-buttons-control-user form .button-6 {
+    background-color: #198754;
+}
+
+.container-buttons-control-user form .button-6:hover {
+    background-color: transparent !important;
+    border: 2px solid #198754 !important;
+}
+
+.container-buttons-control-user form .button-7 {
+    background-color: #CDDC39;
+}
+
+.container-buttons-control-user form .button-7:hover {
+    background-color: transparent !important;
+    border: 2px solid #CDDC39 !important;
+}
+
+.container-buttons-control-user .parent-buttons-events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-buttons-control-user .parent-buttons-events .button-8 {
+    background-color: #712cf9;
+}
+
+.container-buttons-control-user .parent-buttons-events  .button-8:hover {
+    border: 2px solid #712cf9 !important;
+    background-color: transparent;
+}
+
+.container-buttons-control-user .parent-buttons-events .button-9 {
+    background-color: #ff9800;
+}
+
+.container-buttons-control-user .parent-buttons-events .button-9:hover {
+    border: 2px solid #ff9800 !important;
+    background-color: transparent;
+}
+
+.container-buttons-control-user .parent-buttons-events .button-10 {
+    background-color: #607D8B;
+}
+
+.container-buttons-control-user .parent-buttons-events .button-10:hover {
+    border: 2px solid #607D8B !important;
+    background-color: transparent;
+}
+
+.container-buttons-control-user form .button-11 {
+    background-color: #dc3545;
+}
+
+.container-buttons-control-user form .button-11:hover {
+    background-color: transparent !important;
+    border: 2px solid #dc3545 !important;
+}
+/* End Buttons Control User */
+
+/* Start Animation Titles */
+@keyframes colorCycle {
+    0% {
+        color: red;
+    }
+    20% {
+        color: orange;
+    }
+    40% {
+        color: yellow;
+    }
+    60% {
+        color: green;
+    }
+    80% {
+        color: blue;
+    }
+    100% {
+        color: #FFF;
+    }
+}
+
+.titles {
+    animation: colorCycle 5s linear infinite;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+@keyframes colorborder {
+    0% {
+        border-color: red;
+    }
+    20% {
+        border-color: orange;
+    }
+    40% {
+        border-color: yellow;
+    }
+    60% {
+        border-color: green;
+    }
+    80% {
+        border-color: blue;
+    }
+    100% {
+        border-color: #FFF;
+    }
+}
+/* End Animation Titles */
+
+/* Start Table Information User */
+
+.parent-table {
+    height: 308px !important;
+    overflow-y: scroll !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+.table {
+    color: #FFF !important;
+    /* width: 50% !important; */
+}
+
+.parent-table thead {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.parent-table thead tr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.parent-table thead tr th {
+    flex: 1;
+}
+
+.parent-table .table .dynamic-section {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+.parent-table .dynamic-section tr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.parent-table .dynamic-section tr td{
+    flex: 1;
+}
+
+/* End Table Information User */
+
+.message-panel {
+    width: 500px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-top: 34px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.online {
+    display: block !important;
+    width:16px !important;
+    height:16px !important;
+    border-radius: 50% !important;
+    background-color: green !important;
+}
+
+.offline {
+    display: block !important;
+    width:16px !important;
+    height:16px !important;
+    border-radius: 50% !important;
+    background-color: red !important;
+}
+/* End Page Dashboard */
